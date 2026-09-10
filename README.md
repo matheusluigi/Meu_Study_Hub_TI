@@ -18,7 +18,9 @@ Meu_Study_Hub_TI/
 │   ├── Bootcamp_I/
 │   │   ├── Atividades_e_Entregas/
 │   │   └── Anotacoes_e_Resumos/
-│   └── Outra_Disciplina/          # (renomeie para a sua disciplina real)
+│   └── Sistemas_em_Tempo_Real_e_Embarcados/
+│       ├── Atividades_e_Entregas/
+│       └── Anotacoes_e_Resumos/
 └── 03_Projetos_e_Certificados/    # Projetos pessoais e certificados
 ```
 
