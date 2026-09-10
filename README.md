@@ -18,7 +18,10 @@ Meu_Study_Hub_TI/
 │   ├── Bootcamp_I/
 │   │   ├── Atividades_e_Entregas/
 │   │   └── Anotacoes_e_Resumos/
-│   └── Sistemas_em_Tempo_Real_e_Embarcados/
+│   ├── Sistemas_em_Tempo_Real_e_Embarcados/
+│   │   ├── Atividades_e_Entregas/
+│   │   └── Anotacoes_e_Resumos/
+│   └── Projeto_Integrador_IV/
 │       ├── Atividades_e_Entregas/
 │       └── Anotacoes_e_Resumos/
 └── 03_Projetos_e_Certificados/    # Projetos pessoais e certificados
