@@ -1,4 +1,4 @@
-# 🌐 Portfólio — Study Hub (GitHub Pages)
+# Portfólio — Study Hub (GitHub Pages)
 
 > Página pessoal que apresenta quem eu sou, meu Study Hub, meus projetos e documentos.
 
@@ -8,11 +8,11 @@
 ![CSS](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
 
-🔗 **Acesse:** https://matheusluigi.github.io/Meu_Study_Hub_TI/
+**Acesse:** https://matheusluigi.github.io/Meu_Study_Hub_TI/
 
 ---
 
-## 📖 Sobre o projeto
+## Sobre o projeto
 
 Projeto da **Etapa Intermediária do Bootcamp I**. O objetivo é transformar o Study Hub
 (criado na Fase 1) em uma vitrine pública: um site estático hospedado gratuitamente pelo
@@ -29,7 +29,7 @@ Projeto da **Etapa Intermediária do Bootcamp I**. O objetivo é transformar o S
 | Documentos | Entregas de cada fase do projeto integrado |
 | Contato | E-mail, LinkedIn e GitHub |
 
-## 🛠️ Tecnologias
+## Tecnologias
 
 - **HTML5** semântico (`header`, `main`, `section`, `article`, `footer`)
 - **CSS3** com *design tokens* (variáveis CSS), Grid, Flexbox e layout responsivo
@@ -38,7 +38,7 @@ Projeto da **Etapa Intermediária do Bootcamp I**. O objetivo é transformar o S
 
 Sem frameworks e sem etapa de build: o navegador lê os arquivos exatamente como estão no repositório.
 
-## 📂 Onde está o código
+## Onde está o código
 
 O GitHub Pages só publica a partir da raiz do repositório **ou** de uma pasta chamada `docs/`.
 Como a raiz é o Study Hub, o código do site fica em [`/docs`](../../../docs/):
@@ -52,7 +52,7 @@ docs/
     └── main.js     # Menu mobile e ano do rodapé
 ```
 
-## ▶️ Como executar localmente
+## Como executar localmente
 
 ```bash
 git clone https://github.com/matheusluigi/Meu_Study_Hub_TI.git
@@ -62,14 +62,14 @@ python -m http.server 5500 --directory docs
 
 Depois abra `http://localhost:5500` no navegador.
 
-## 🚀 Publicação (GitHub Pages)
+## Publicação (GitHub Pages)
 
 1. No repositório: **Settings → Pages**
 2. *Source*: **Deploy from a branch**
 3. *Branch*: `main` · pasta `/docs` → **Save**
 4. Em ~1 minuto o site fica disponível no link acima. Cada `git push` na `main` atualiza o site.
 
-## 🏷️ Versões
+## Versões
 
 | Versão | O que mudou |
 |--------|-------------|
@@ -78,6 +78,6 @@ Depois abra `http://localhost:5500` no navegador.
 O histórico completo está nas [tags](https://github.com/matheusluigi/Meu_Study_Hub_TI/tags) e nos
 [commits](https://github.com/matheusluigi/Meu_Study_Hub_TI/commits/main) do repositório.
 
-## 👤 Autor
+## Autor
 
 **Matheus Luigi** · [LinkedIn](https://www.linkedin.com/in/matheus-luigi-a7bb22220/) · [GitHub](https://github.com/matheusluigi)

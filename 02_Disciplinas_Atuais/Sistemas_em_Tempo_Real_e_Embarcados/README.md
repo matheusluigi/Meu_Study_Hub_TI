@@ -2,7 +2,7 @@
 
 Materiais desta disciplina, organizados no padrão do Study Hub.
 
-## 📂 Organização
+## Organização
 
 ```
 Sistemas_em_Tempo_Real_e_Embarcados/
@@ -10,7 +10,7 @@ Sistemas_em_Tempo_Real_e_Embarcados/
 └── Anotacoes_e_Resumos/       # Resumos das aulas
 ```
 
-## 📝 Resumos disponíveis
+## Resumos disponíveis
 
 - Aula 1 — Introdução
 - Aula 2 — Projetos com LED

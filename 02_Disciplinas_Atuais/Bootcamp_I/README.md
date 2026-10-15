@@ -3,7 +3,7 @@
 Disciplina em que o Study Hub nasceu. Aqui ficam as entregas do projeto integrado
 (Fase 1, Etapa Intermediária e próximas) e as anotações das aulas.
 
-## 📂 Organização
+## Organização
 
 ```
 Bootcamp_I/
@@ -11,7 +11,7 @@ Bootcamp_I/
 └── Anotacoes_e_Resumos/       # Resumos e anotações das aulas
 ```
 
-## 📦 Entregas
+## Entregas
 
 | Fase | Entrega | Material |
 |------|---------|----------|

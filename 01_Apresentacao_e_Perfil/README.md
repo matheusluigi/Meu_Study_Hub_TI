@@ -1,4 +1,4 @@
-# 👋 Apresentação e Perfil
+# Apresentação e Perfil
 
 ## Identificação
 
@@ -20,13 +20,13 @@ profissional que fale por mim. Meu objetivo de longo prazo é conquistar a liber
 trabalhar de qualquer lugar do mundo e alcançar independência financeira por meio da
 Tecnologia.
 
-## 🎯 Interesses
+## Interesses
 
 - **Dados**
 - **Desenvolvimento Web**
 
-## 🔗 Contato
+## Contato
 
-- 📧 matheusluigi.dev@gmail.com
-- 💼 [LinkedIn](https://www.linkedin.com/in/matheus-luigi-a7bb22220/)
-- 🐙 [GitHub](https://github.com/matheusluigi)
+- matheusluigi.dev@gmail.com
+- [LinkedIn](https://www.linkedin.com/in/matheus-luigi-a7bb22220/)
+- [GitHub](https://github.com/matheusluigi)

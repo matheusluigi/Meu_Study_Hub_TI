@@ -1,4 +1,4 @@
-# 💰 CashFlow — Controle Financeiro Pessoal
+# CashFlow — Controle Financeiro Pessoal
 
 > Aplicação web para organizar as finanças pessoais, desenvolvida em equipe como Projeto Integrador.
 
@@ -9,17 +9,17 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
 ![PHP](https://img.shields.io/badge/PHP-777BB4?logo=php&logoColor=white)
 
-🔒 **Código:** repositório privado da equipe (acesso restrito aos integrantes).
+**Código:** repositório privado da equipe (acesso restrito aos integrantes).
 
 ---
 
-## 📖 Sobre o projeto
+## Sobre o projeto
 
 O CashFlow nasceu como Projeto Integrador do curso de Ciências da Computação (CEUB). O objetivo
 é incentivar o hábito de organização financeira com uma ferramenta simples, modular e didática,
 que sirva de base para evoluir com backend e banco de dados.
 
-## ✨ Funcionalidades
+## Funcionalidades
 
 - **Login** com validação de e-mail e senha
 - **Cadastro em três etapas**: dados pessoais, endereço e confirmação
@@ -28,7 +28,7 @@ que sirva de base para evoluir com backend e banco de dados.
 - **Relatório em PDF** para download
 - Telas de **perfil** e **configurações**
 
-## 🛠️ Tecnologias
+## Tecnologias
 
 | Camada | Tecnologia | Uso |
 |--------|------------|-----|
@@ -37,7 +37,7 @@ que sirva de base para evoluir com backend e banco de dados.
 | Lógica de interface | JavaScript | Validações, navegação entre telas e gráficos |
 | Servidor | PHP | Conexão com o banco e rotinas do backend |
 
-## 🏗️ Arquitetura
+## Arquitetura
 
 Cada tela é um módulo independente, com seus próprios arquivos de estrutura, estilo e lógica
 (separação de responsabilidades):
@@ -52,12 +52,12 @@ CashFlow/
 └── conexao.php
 ```
 
-## 👥 Equipe e minha participação
+## Equipe e minha participação
 
 Projeto desenvolvido por uma equipe de 5 alunos, com versionamento colaborativo em um
 repositório compartilhado no GitHub. Sou um dos autores do sistema e da sua documentação oficial.
 
-## 🔭 Próximos passos
+## Próximos passos
 
 - Ampliar a responsividade para dispositivos móveis
 - Evoluir o controle financeiro (lançamentos, categorias e saldo)

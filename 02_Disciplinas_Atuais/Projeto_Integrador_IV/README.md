@@ -2,7 +2,7 @@
 
 Materiais desta disciplina, organizados no padrão do Study Hub.
 
-## 📂 Organização
+## Organização
 
 ```
 Projeto_Integrador_IV/
