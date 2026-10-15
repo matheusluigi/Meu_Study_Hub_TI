@@ -8,7 +8,7 @@
 
 ## Biografia acadêmica
 
-Sou estudante de Ciências da Computação, atualmente no Bootcamp I. Minha trajetória
+Sou estudante de Ciências da Computação, atualmente no Bootcamp I, e trabalho no Sicoob. Minha trajetória
 escolar começou no Colégio Ideal, e a Tecnologia é a minha primeira formação na área —
 uma escolha consciente, e não por acaso. Sempre gostei de estudar e trabalhar diante do
 computador, e enxerguei na TI um mercado aquecido, repleto de oportunidades reais de
@@ -19,6 +19,8 @@ base técnica consistente, evoluir de forma prática a cada módulo e formar um 
 profissional que fale por mim. Meu objetivo de longo prazo é conquistar a liberdade de
 trabalhar de qualquer lugar do mundo e alcançar independência financeira por meio da
 Tecnologia.
+
+No momento não estou procurando emprego, mas adoraria conversar sobre tecnologia.
 
 ## Interesses
 

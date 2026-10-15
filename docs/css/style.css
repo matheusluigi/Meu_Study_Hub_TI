@@ -495,6 +495,33 @@ ul {
   gap: var(--space-4);
 }
 
+.footer__status {
+  margin-top: var(--space-1);
+  font-size: 0.8125rem;
+}
+
+.footer__status::before {
+  /* bolinha verde de "status" */
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  margin-right: var(--space-2);
+  border-radius: 50%;
+  background: var(--color-accent);
+  vertical-align: middle;
+}
+
+.footer__right {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-4);
+}
+
+.footer__right a:hover {
+  color: var(--color-text);
+}
+
 .footer__version {
   font-family: var(--font-mono);
 }
@@ -544,5 +571,9 @@ ul {
 
   .hub {
     grid-template-columns: 1fr;
+  }
+
+  .footer__inner {
+    flex-direction: column;
   }
 }
