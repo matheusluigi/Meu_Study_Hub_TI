@@ -21,4 +21,5 @@ Vitrine do que eu construo e das comprovações que acumulo ao longo do curso.
 
 | Projeto | Tipo | Status | Link |
 |---------|------|--------|------|
-| Portfólio — Study Hub | Acadêmico (Bootcamp I) | ✅ v1.0 publicada | [README](Projetos_Academicos/Portfolio_GitHub_Pages/README.md) |
+| Portfólio — Study Hub | Acadêmico (Bootcamp I) | ✅ Publicado | [README](Projetos_Academicos/Portfolio_GitHub_Pages/README.md) |
+| CashFlow — Finanças Pessoais | Acadêmico (Projeto Integrador, equipe) | ✅ Concluído | [README](Projetos_Academicos/CashFlow/README.md) |
