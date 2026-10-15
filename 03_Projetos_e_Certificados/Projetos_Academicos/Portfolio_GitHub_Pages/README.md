@@ -3,7 +3,7 @@
 > Página pessoal que apresenta quem eu sou, meu Study Hub, meus projetos e documentos.
 
 ![Status](https://img.shields.io/badge/status-publicado-22d3a6)
-![Versão](https://img.shields.io/badge/vers%C3%A3o-1.0-7c5cff)
+![Versão](https://img.shields.io/badge/vers%C3%A3o-1.1-7c5cff)
 ![HTML](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
@@ -72,6 +72,7 @@ Depois abra `http://localhost:5500` no navegador.
 | Versão | O que mudou |
 |--------|-------------|
 | **v1.0** | Primeira versão: todas as seções, layout responsivo e menu mobile |
+| **v1.1** | Foto de perfil, projeto CashFlow, status profissional, LinkedIn no menu e no rodapé, documento da Etapa Intermediária |
 
 O histórico completo está nas [tags](https://github.com/matheusluigi/Meu_Study_Hub_TI/tags) e nos
 [commits](https://github.com/matheusluigi/Meu_Study_Hub_TI/commits/main) do repositório.
