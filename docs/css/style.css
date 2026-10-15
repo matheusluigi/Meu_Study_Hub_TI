@@ -368,12 +368,10 @@ ul {
   width: 140px;
   height: 140px;
   border-radius: 50%;
-  display: grid;
-  place-items: center;
-  font-size: 2.5rem;
-  font-weight: 800;
+  object-fit: cover; /* preenche o círculo sem distorcer a foto */
+  /* anel em gradiente: o padding mostra o fundo atrás da foto */
+  padding: 4px;
   background: linear-gradient(135deg, var(--color-primary), var(--color-accent));
-  color: #fff;
 }
 
 /* --- Study Hub --- */
@@ -535,9 +533,8 @@ ul {
   }
 
   .about__avatar {
-    width: 96px;
-    height: 96px;
-    font-size: 1.75rem;
+    width: 112px;
+    height: 112px;
   }
 
   .hub {
