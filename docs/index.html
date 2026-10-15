@@ -26,6 +26,7 @@
         <li><a href="#study-hub">Study Hub</a></li>
         <li><a href="#projetos">Projetos</a></li>
         <li><a href="#documentos">Documentos</a></li>
+        <li><a href="https://www.linkedin.com/in/matheus-luigi-a7bb22220/" target="_blank" rel="noopener">LinkedIn ↗</a></li>
         <li><a href="#contato" class="nav__cta">Contato</a></li>
       </ul>
     </nav>
@@ -55,30 +56,30 @@
     <!-- ===== Sobre ===== -->
     <section class="section" id="sobre">
       <div class="container about">
-        <div class="about__avatar" aria-hidden="true">ML</div>
+        <img class="about__avatar" src="img/perfil.jpg" alt="Foto de Matheus Luigi sorrindo" width="140" height="140">
         <div>
           <h2 class="section__title">Sobre mim</h2>
           <p>
-            Sou estudante de Ciências da Computação e estagiário no Banco Sicoob. Minha trajetória
-            começou no Colégio Ideal, com cursos de programação, e a TI é a minha primeira formação na área —
-            uma escolha consciente: sempre gostei de estudar e trabalhar diante do computador, e enxergo
-            na tecnologia um mercado cheio de oportunidades reais.
+            Sou estudante de Ciências da Computação, no Bootcamp I, e atualmente trabalho no <strong>Sicoob</strong>.
+            Comecei minha trajetória no Colégio Ideal e escolhi a Tecnologia como primeira formação: sempre gostei
+            de trabalhar no computador e vejo na TI um mercado cheio de oportunidades.
           </p>
           <p>
-            Encaro a graduação como o ponto de partida de uma carreira sólida. Meu objetivo é conquistar a
-            liberdade de trabalhar de qualquer lugar do mundo e alcançar independência financeira por meio da Tecnologia.
+            Quero construir uma base técnica sólida e evoluir a cada módulo. No longo prazo, meu objetivo é
+            trabalhar de qualquer lugar do mundo e alcançar independência financeira por meio da Tecnologia.
+          </p>
+          <p>
+            No momento não estou procurando emprego, mas adoraria conversar sobre tecnologia.
           </p>
         </div>
       </div>
 
       <div class="container cards cards--2">
         <article class="card">
-          <span class="card__icon" aria-hidden="true">📊</span>
           <h3>Dados</h3>
           <p>Transformar dados brutos em decisões: análises, visualizações e a lógica por trás dos números.</p>
         </article>
         <article class="card">
-          <span class="card__icon" aria-hidden="true">🌐</span>
           <h3>Desenvolvimento Web</h3>
           <p>Construir aplicações que as pessoas realmente usam — do front-end à lógica do back-end.</p>
         </article>
@@ -129,7 +130,7 @@
     <section class="section" id="projetos">
       <div class="container">
         <h2 class="section__title">Projetos</h2>
-        <p class="section__lead">Do primeiro HTML/CSS até um analisador sintático em Java.</p>
+        <p class="section__lead">Do primeiro HTML/CSS a um app de finanças feito em equipe.</p>
 
         <div class="cards cards--3">
           <article class="card project">
@@ -141,11 +142,14 @@
           </article>
 
           <article class="card project">
-            <span class="tag">Acadêmico</span>
-            <h3>Parser — Compiladores</h3>
-            <p>Analisador léxico e sintático desenvolvido na disciplina de Compiladores.</p>
-            <ul class="stack"><li>Java</li><li>Lex</li></ul>
-            <a href="https://github.com/matheusluigi/compiladores-parser-java" target="_blank" rel="noopener" class="link">Ver código ↗</a>
+            <span class="tag">Projeto Integrador · Equipe</span>
+            <h3>CashFlow — Finanças Pessoais</h3>
+            <p>
+              App web de controle financeiro pessoal: login, cadastro em etapas, dashboard com gráfico
+              por categoria, limite de gastos e relatório em PDF. Desenvolvido em equipe de 5 alunos.
+            </p>
+            <ul class="stack"><li>HTML</li><li>CSS</li><li>JavaScript</li><li>PHP</li></ul>
+            <span class="private">Repositório privado da equipe</span>
           </article>
 
           <article class="card project">
@@ -173,6 +177,13 @@
               <small>Perfil, interesses, arquitetura de pastas e matriz do Study Hub.</small>
             </span>
           </a>
+          <a class="doc" href="https://github.com/matheusluigi/Meu_Study_Hub_TI/blob/main/02_Disciplinas_Atuais/Bootcamp_I/Atividades_e_Entregas/Etapa_Intermediaria_Repositorio_com_Versionamento.docx" target="_blank" rel="noopener">
+            <span class="doc__type">DOCX</span>
+            <span class="doc__body">
+              <strong>Etapa Intermediária — Repositório com Versionamento</strong>
+              <small>Planejamento, versionamento, documentação, GitHub Pages e LinkedIn.</small>
+            </span>
+          </a>
           <a class="doc" href="https://github.com/matheusluigi/Meu_Study_Hub_TI" target="_blank" rel="noopener">
             <span class="doc__type">REPO</span>
             <span class="doc__body">
@@ -188,7 +199,7 @@
     <section class="section contact" id="contato">
       <div class="container">
         <h2 class="section__title">Vamos conversar?</h2>
-        <p class="section__lead">Estou aberto a oportunidades de estágio, projetos e trocas de conhecimento.</p>
+        <p class="section__lead">No momento não estou procurando emprego, mas adoraria conversar sobre tecnologia, projetos e trocar conhecimento.</p>
         <div class="contact__links">
           <a href="mailto:matheusluigi.dev@gmail.com" class="btn btn--primary">matheusluigi.dev@gmail.com</a>
           <a href="https://www.linkedin.com/in/matheus-luigi-a7bb22220/" class="btn btn--ghost" target="_blank" rel="noopener">LinkedIn ↗</a>
@@ -201,8 +212,15 @@
 
   <footer class="footer">
     <div class="container footer__inner">
-      <p>© <span id="year">2026</span> Matheus Luigi · Study Hub</p>
-      <p class="footer__version">v1.0</p>
+      <div>
+        <p>© <span id="year">2026</span> Matheus Luigi · Study Hub</p>
+        <p class="footer__status">Trabalhando no Sicoob · Não estou procurando emprego, mas adoraria conversar sobre tecnologia.</p>
+      </div>
+      <div class="footer__right">
+        <a href="https://www.linkedin.com/in/matheus-luigi-a7bb22220/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://github.com/matheusluigi" target="_blank" rel="noopener">GitHub</a>
+        <span class="footer__version">v1.1</span>
+      </div>
     </div>
   </footer>
 

@@ -136,7 +136,7 @@ ul {
 }
 
 .cards--2 { grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
-.cards--3 { grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); }
+.cards--3 { grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
 
 .card {
   background: var(--color-surface);
@@ -209,6 +209,11 @@ ul {
 
 .link:hover {
   text-decoration: underline;
+}
+
+.private {
+  font-size: var(--fs-sm);
+  color: var(--color-text-muted);
 }
 
 /* ==========================================================
@@ -368,12 +373,10 @@ ul {
   width: 140px;
   height: 140px;
   border-radius: 50%;
-  display: grid;
-  place-items: center;
-  font-size: 2.5rem;
-  font-weight: 800;
+  object-fit: cover; /* preenche o círculo sem distorcer a foto */
+  /* anel em gradiente: o padding mostra o fundo atrás da foto */
+  padding: 4px;
   background: linear-gradient(135deg, var(--color-primary), var(--color-accent));
-  color: #fff;
 }
 
 /* --- Study Hub --- */
@@ -492,6 +495,33 @@ ul {
   gap: var(--space-4);
 }
 
+.footer__status {
+  margin-top: var(--space-1);
+  font-size: 0.8125rem;
+}
+
+.footer__status::before {
+  /* bolinha verde de "status" */
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  margin-right: var(--space-2);
+  border-radius: 50%;
+  background: var(--color-accent);
+  vertical-align: middle;
+}
+
+.footer__right {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-4);
+}
+
+.footer__right a:hover {
+  color: var(--color-text);
+}
+
 .footer__version {
   font-family: var(--font-mono);
 }
@@ -535,12 +565,15 @@ ul {
   }
 
   .about__avatar {
-    width: 96px;
-    height: 96px;
-    font-size: 1.75rem;
+    width: 112px;
+    height: 112px;
   }
 
   .hub {
     grid-template-columns: 1fr;
+  }
+
+  .footer__inner {
+    flex-direction: column;
   }
 }
