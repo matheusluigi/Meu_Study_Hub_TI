@@ -10,8 +10,6 @@
 
 **Acesse:** https://matheusluigi.github.io/Meu_Study_Hub_TI/
 
----
-
 ## Sobre o projeto
 
 Projeto da **Etapa Intermediária do Bootcamp I**. O objetivo é transformar o Study Hub

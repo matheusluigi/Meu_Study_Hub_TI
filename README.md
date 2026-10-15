@@ -9,8 +9,6 @@
 Este repositório é o meu *Study Hub*: o espaço onde organizo meus estudos, entregas
 e projetos ao longo do curso, registrando minha evolução prática de forma padronizada.
 
----
-
 ## Estrutura do repositório
 
 ```
@@ -42,7 +40,6 @@ Meu_Study_Hub_TI/
 |---------|-----------|-------|
 | Portfólio — Study Hub | Site pessoal em HTML, CSS e JS publicado no GitHub Pages | [README](03_Projetos_e_Certificados/Projetos_Academicos/Portfolio_GitHub_Pages/README.md) · [Site](https://matheusluigi.github.io/Meu_Study_Hub_TI/) |
 | CashFlow — Finanças Pessoais | App web de controle financeiro, Projeto Integrador em equipe (repositório privado) | [README](03_Projetos_e_Certificados/Projetos_Academicos/CashFlow/README.md) |
-| Parser — Compiladores | Analisador léxico e sintático em Java | [Repositório](https://github.com/matheusluigi/compiladores-parser-java) |
 | Web Design | Primeiro projeto autoral em HTML e CSS | [Repositório](https://github.com/matheusluigi/web-design) |
 
 ## Fluxo de versionamento

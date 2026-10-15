@@ -11,8 +11,6 @@
 
 **Código:** repositório privado da equipe (acesso restrito aos integrantes).
 
----
-
 ## Sobre o projeto
 
 O CashFlow nasceu como Projeto Integrador do curso de Ciências da Computação (CEUB). O objetivo
