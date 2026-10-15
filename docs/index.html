@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Matheus Luigi — Study Hub & Portfólio</title>
+  <meta name="description" content="Portfólio de Matheus Luigi, estudante de Ciências da Computação: Study Hub, projetos, documentos e contato.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ===== Cabeçalho / navegação ===== -->
+  <header class="header">
+    <nav class="nav container" aria-label="Navegação principal">
+      <a href="#inicio" class="nav__logo">ML<span>.</span></a>
+
+      <button class="nav__toggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav-menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav__menu" id="nav-menu">
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#study-hub">Study Hub</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#documentos">Documentos</a></li>
+        <li><a href="#contato" class="nav__cta">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ===== Hero ===== -->
+    <section class="hero" id="inicio">
+      <div class="container hero__inner">
+        <p class="eyebrow">Ciências da Computação · Bootcamp I</p>
+        <h1 class="hero__title">
+          Olá, eu sou <span class="highlight">Matheus Luigi</span>.<br>
+          Construo minha carreira em TI um commit por vez.
+        </h1>
+        <p class="hero__subtitle">
+          Estudante focado em <strong>Dados</strong> e <strong>Desenvolvimento Web</strong>.
+          Este é o meu Study Hub: onde organizo estudos, entregas e projetos — e registro minha evolução.
+        </p>
+        <div class="hero__actions">
+          <a href="#projetos" class="btn btn--primary">Ver projetos</a>
+          <a href="https://github.com/matheusluigi/Meu_Study_Hub_TI" class="btn btn--ghost" target="_blank" rel="noopener">Repositório no GitHub ↗</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Sobre ===== -->
+    <section class="section" id="sobre">
+      <div class="container about">
+        <div class="about__avatar" aria-hidden="true">ML</div>
+        <div>
+          <h2 class="section__title">Sobre mim</h2>
+          <p>
+            Sou estudante de Ciências da Computação e estagiário no Banco Sicoob. Minha trajetória
+            começou no Colégio Ideal, com cursos de programação, e a TI é a minha primeira formação na área —
+            uma escolha consciente: sempre gostei de estudar e trabalhar diante do computador, e enxergo
+            na tecnologia um mercado cheio de oportunidades reais.
+          </p>
+          <p>
+            Encaro a graduação como o ponto de partida de uma carreira sólida. Meu objetivo é conquistar a
+            liberdade de trabalhar de qualquer lugar do mundo e alcançar independência financeira por meio da Tecnologia.
+          </p>
+        </div>
+      </div>
+
+      <div class="container cards cards--2">
+        <article class="card">
+          <span class="card__icon" aria-hidden="true">📊</span>
+          <h3>Dados</h3>
+          <p>Transformar dados brutos em decisões: análises, visualizações e a lógica por trás dos números.</p>
+        </article>
+        <article class="card">
+          <span class="card__icon" aria-hidden="true">🌐</span>
+          <h3>Desenvolvimento Web</h3>
+          <p>Construir aplicações que as pessoas realmente usam — do front-end à lógica do back-end.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===== Study Hub ===== -->
+    <section class="section section--alt" id="study-hub">
+      <div class="container">
+        <h2 class="section__title">O Study Hub</h2>
+        <p class="section__lead">
+          Um repositório público e versionado que centraliza toda a minha vida acadêmica em TI.
+          A organização separa apresentação, disciplinas e projetos, com nomes padronizados (sem espaços nem acentos).
+        </p>
+
+        <div class="hub">
+          <pre class="tree" aria-label="Estrutura de pastas do repositório"><code>Meu_Study_Hub_TI/
+├── <b>01_Apresentacao_e_Perfil/</b>
+├── <b>02_Disciplinas_Atuais/</b>
+│   ├── Bootcamp_I/
+│   ├── Sistemas_em_Tempo_Real_e_Embarcados/
+│   └── Projeto_Integrador_IV/
+├── <b>03_Projetos_e_Certificados/</b>
+│   ├── Projetos_Academicos/
+│   ├── Projetos_Pessoais/
+│   └── Certificados/
+└── <b>docs/</b>  ← este site (GitHub Pages)</code></pre>
+
+          <ul class="disciplines">
+            <li>
+              <h3>Bootcamp I</h3>
+              <p>Planejamento do Study Hub, versionamento com Git e este portfólio.</p>
+            </li>
+            <li>
+              <h3>Sistemas em Tempo Real e Embarcados</h3>
+              <p>Resumos das aulas: introdução, projetos com LED e semáforo.</p>
+            </li>
+            <li>
+              <h3>Projeto Integrador IV</h3>
+              <p>Entregas e anotações do projeto integrador do semestre.</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Projetos ===== -->
+    <section class="section" id="projetos">
+      <div class="container">
+        <h2 class="section__title">Projetos</h2>
+        <p class="section__lead">Do primeiro HTML/CSS até um analisador sintático em Java.</p>
+
+        <div class="cards cards--3">
+          <article class="card project">
+            <span class="tag">Acadêmico</span>
+            <h3>Study Hub & Portfólio</h3>
+            <p>Repositório organizado e versionado com Git, com este site publicado via GitHub Pages.</p>
+            <ul class="stack"><li>HTML</li><li>CSS</li><li>JavaScript</li><li>Git</li></ul>
+            <a href="https://github.com/matheusluigi/Meu_Study_Hub_TI" target="_blank" rel="noopener" class="link">Ver código ↗</a>
+          </article>
+
+          <article class="card project">
+            <span class="tag">Acadêmico</span>
+            <h3>Parser — Compiladores</h3>
+            <p>Analisador léxico e sintático desenvolvido na disciplina de Compiladores.</p>
+            <ul class="stack"><li>Java</li><li>Lex</li></ul>
+            <a href="https://github.com/matheusluigi/compiladores-parser-java" target="_blank" rel="noopener" class="link">Ver código ↗</a>
+          </article>
+
+          <article class="card project">
+            <span class="tag tag--personal">Pessoal</span>
+            <h3>Web Design</h3>
+            <p>Meu primeiro projeto 100% autoral, criado quando comecei a estudar HTML e CSS, com design no Figma.</p>
+            <ul class="stack"><li>HTML</li><li>CSS</li><li>Figma</li></ul>
+            <a href="https://github.com/matheusluigi/web-design" target="_blank" rel="noopener" class="link">Ver código ↗</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Documentos ===== -->
+    <section class="section section--alt" id="documentos">
+      <div class="container">
+        <h2 class="section__title">Documentos e apresentações</h2>
+        <p class="section__lead">Os materiais produzidos em cada fase do projeto integrado.</p>
+
+        <div class="docs">
+          <a class="doc" href="https://github.com/matheusluigi/Meu_Study_Hub_TI/blob/main/02_Disciplinas_Atuais/Bootcamp_I/Atividades_e_Entregas/Fase1_Guia_de_Arquitetura.docx" target="_blank" rel="noopener">
+            <span class="doc__type">DOCX</span>
+            <span class="doc__body">
+              <strong>Fase 1 — Guia de Arquitetura</strong>
+              <small>Perfil, interesses, arquitetura de pastas e matriz do Study Hub.</small>
+            </span>
+          </a>
+          <a class="doc" href="https://github.com/matheusluigi/Meu_Study_Hub_TI" target="_blank" rel="noopener">
+            <span class="doc__type">REPO</span>
+            <span class="doc__body">
+              <strong>Repositório Meu_Study_Hub_TI</strong>
+              <small>Código, histórico de versões e README de cada projeto.</small>
+            </span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Contato ===== -->
+    <section class="section contact" id="contato">
+      <div class="container">
+        <h2 class="section__title">Vamos conversar?</h2>
+        <p class="section__lead">Estou aberto a oportunidades de estágio, projetos e trocas de conhecimento.</p>
+        <div class="contact__links">
+          <a href="mailto:matheusluigi.dev@gmail.com" class="btn btn--primary">matheusluigi.dev@gmail.com</a>
+          <a href="https://www.linkedin.com/in/matheus-luigi-a7bb22220/" class="btn btn--ghost" target="_blank" rel="noopener">LinkedIn ↗</a>
+          <a href="https://github.com/matheusluigi" class="btn btn--ghost" target="_blank" rel="noopener">GitHub ↗</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>© <span id="year">2026</span> Matheus Luigi · Study Hub</p>
+      <p class="footer__version">v1.0</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

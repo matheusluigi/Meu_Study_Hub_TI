@@ -4,6 +4,8 @@
 
 **Matheus Luigi** · Ciências da Computação · Bootcamp I
 
+🌐 **Portfólio online:** https://matheusluigi.github.io/Meu_Study_Hub_TI/
+
 Este repositório é o meu *Study Hub*: o espaço onde organizo meus estudos, entregas
 e projetos ao longo do curso, registrando minha evolução prática de forma padronizada.
 
@@ -24,8 +26,30 @@ Meu_Study_Hub_TI/
 │   └── Projeto_Integrador_IV/
 │       ├── Atividades_e_Entregas/
 │       └── Anotacoes_e_Resumos/
-└── 03_Projetos_e_Certificados/    # Projetos pessoais e certificados
+├── 03_Projetos_e_Certificados/    # Projetos e comprovações
+│   ├── Projetos_Academicos/       # Um projeto por pasta, cada um com README
+│   ├── Projetos_Pessoais/
+│   └── Certificados/
+└── docs/                          # Código do site publicado no GitHub Pages
 ```
+
+> **Por que `docs/`?** O GitHub Pages só publica a partir da raiz ou de uma pasta com esse nome.
+> Aqui ela guarda o código do site, não documentação.
+
+## 🧩 Projetos
+
+| Projeto | Descrição | Links |
+|---------|-----------|-------|
+| Portfólio — Study Hub | Site pessoal em HTML, CSS e JS publicado no GitHub Pages | [README](03_Projetos_e_Certificados/Projetos_Academicos/Portfolio_GitHub_Pages/README.md) · [Site](https://matheusluigi.github.io/Meu_Study_Hub_TI/) |
+| Parser — Compiladores | Analisador léxico e sintático em Java | [Repositório](https://github.com/matheusluigi/compiladores-parser-java) |
+| Web Design | Primeiro projeto autoral em HTML e CSS | [Repositório](https://github.com/matheusluigi/web-design) |
+
+## 🔀 Fluxo de versionamento
+
+- **`main`** guarda sempre a versão estável (é ela que o GitHub Pages publica).
+- Cada mudança nasce numa branch **`feature/...`** e entra na `main` por *merge*.
+- Commits seguem o padrão **Conventional Commits** (`feat:`, `fix:`, `docs:`, `chore:`).
+- Marcos importantes recebem uma **tag** de versão (`v1.0`, `v1.1`, ...).
 
 ## 🎯 Áreas de interesse
 
